@@ -1,5 +1,15 @@
+Below is an example license to be used for new code in OpenBSD,
+modeled after the ISC license.
+
+It is important to specify the year of the copyright.  Additional years
+should be separated by a comma, e.g.
+    Copyright (c) 2003, 2004
+
+If you add extra text to the body of the license, be careful not to
+add further restrictions.
+
 /*
- * Copyright (c) 2019 Paul Wisehart paul@oldcode.org
+ * Copyright (c) YYYY YOUR NAME HERE <user@your.dom.ain>
  *
  * Permission to use, copy, modify, and distribute this software for any
  * purpose with or without fee is hereby granted, provided that the above
@@ -13,18 +23,3 @@
  * ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
  * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
  */
-
-#include <stdio.h>
-#include <string.h>
-#include <stdlib.h>
-#include <dirent.h>
-
-const int 	GGG = 10;
-
-int
-main()
-{
-	printf("vib\n");
-	printf("vib gitignore\n");
-	return EXIT_SUCCESS;
-}
