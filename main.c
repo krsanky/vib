@@ -26,5 +26,6 @@ main()
 {
 	printf("vib\n");
 	printf("vib gitignore\n");
+	printf("vib term resize\n");
 	return EXIT_SUCCESS;
 }
