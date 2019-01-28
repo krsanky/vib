@@ -1,0 +1,8 @@
+in command mode: (not ex)
+"dyy
+"d5yy
+"dp
+
+"Dyy  (append)
+
+
