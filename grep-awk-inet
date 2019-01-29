@@ -1,0 +1,1 @@
+ifconfig | grep -A10 iwn | grep inet | awk '{print $2;}'
